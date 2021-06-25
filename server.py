@@ -67,6 +67,7 @@ def getPetPic(id):
         attachment = document.get_attachment(attachment=doc['filename'],headers={"Content-Type":"jpeg/png"})
         return Response(attachment, mimetype='image/jpg')
 
+    
 @app.route("/pets",methods=["POST"])
 def pets():
     pets = []
@@ -78,6 +79,10 @@ def pets():
     elif(request.args['req'] == "getPetImage"):
         return getPetPic(request.args['id'])
     return {}
+
+@app.route("/pet/<id>")
+def petImage(id):
+    return getPetPic(id)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
