@@ -58,6 +58,7 @@ def getPetDetails(id):
         pet_instance["comments"] = doc["comments"]
         return pet_instance
 
+@app.route("/pets/<id>")
 def getPetPic(id):
     selector = {'_id': {'$eq': id}}
     docs = myDatabase.get_query_result(selector)
@@ -67,22 +68,20 @@ def getPetPic(id):
         attachment = document.get_attachment(attachment=doc['filename'],headers={"Content-Type":"jpeg/png"})
         return Response(attachment, mimetype='image/jpg')
 
-    
 @app.route("/pets",methods=["POST"])
 def pets():
     pets = []
-
-    if(request.args['req'] == "getAllPets"):
-        return getAllPets(request.args['kind'])
-    elif(request.args['req'] == "getPetDetails"):
-        return getPetDetails(request.args['id'])
+    req = request.form['req']
+    if(req == "getAllPets"):
+        kind = request.form['kind']
+        return getAllPets(kind)
+    elif(req == "getPetDetails"):
+        id = request.form['id']
+        return getPetDetails(id)
     elif(request.args['req'] == "getPetImage"):
-        return getPetPic(request.args['id'])
+        id = request.form['id']
+        return getPetPic(id)
     return {}
-
-@app.route("/pet/<id>")
-def petImage(id):
-    return getPetPic(id)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
