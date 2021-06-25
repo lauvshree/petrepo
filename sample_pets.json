@@ -1,0 +1,136 @@
+{"pets" : [
+    {
+        "kind":"Dog",
+        "name":"Poppy", 
+        "age":"9 months", 
+        "breed":"Cavalier King", 
+        "gender":"Female",
+        "filename":"dog1.jpeg",
+        "comments":"Good with kids. Fully vaccinated"
+    },
+    {
+        "kind":"Dog",
+        "name":"Leo", 
+        "age":"2 years", 
+        "breed":"German Shepherd", 
+        "gender":"Male",
+        "filename":"dog2.jpeg",
+        "comments":"Prefers family with no kids. Fully vaccinated"
+    },
+    {
+        "kind":"Dog",
+        "name":"Romeo", 
+        "age":"3 months", 
+        "breed":"German Sheperd", 
+        "gender":"Male",
+        "filename":"dog3.jpeg",
+        "comments":"Playful. Yet to be vaccinated"
+    },
+    {
+        "kind":"Dog",
+        "name":"Charlie", 
+        "age":"1 year old", 
+        "breed":"Golden Retriever", 
+        "gender":"Male",
+        "filename":"dog4.jpeg",
+        "comments":"Good with kids. Prefers outdoor. Follows basic commands. Fully vaccinated"
+    },
+    {
+        "kind":"Dog",
+        "name":"Tommy", 
+        "age":"8 months", 
+        "breed":"Indie", 
+        "gender":"Male",
+        "filename":"dog5.jpeg",
+        "comments":"Good with kids. Fully vaccinated"
+    },
+    {
+        "kind":"Dog",
+        "name":"Julie", 
+        "age":"5 months", 
+        "breed":"Labrador", 
+        "gender":"Female",
+        "filename":"dog6.jpeg",
+        "comments":"Very playful. Has obtained first two vaccines. Prefers mature family"
+    },
+    {
+        "kind":"Dog",
+        "name":"Princess", 
+        "age":"3 months", 
+        "breed":"Labrador", 
+        "gender":"Female",
+        "filename":"dog7.jpeg",
+        "comments":"Separation anxiety. Adamant. Can be trained"
+    },
+    {
+        "kind":"Dog",
+        "name":"Lola", 
+        "age":"3 years", 
+        "breed":"Labrador", 
+        "gender":"Female",
+        "filename":"dog8.jpeg",
+        "comments":"Good with kids. Good indoor dog. Doesn't shed hair. Fully vaccinated"
+    },
+    {
+        "kind":"Dog",
+        "name":"Hershey", 
+        "age":"8 months", 
+        "breed":"Labroodle", 
+        "gender":"Male",
+        "filename":"dog9.jpeg",
+        "comments":"Loves cuddles. Good with kids. Fully vaccinated"
+    },
+    {
+        "kind":"Dog",
+        "name":"Zuzu", 
+        "age":"1 year 4 months", 
+        "breed":"pug", 
+        "gender":"Male",
+        "filename":"dog10.jpeg",
+        "comments":"Good with kids. Fully vaccinated"
+    },
+    {
+        "kind":"Cat",
+        "name":"Princess", 
+        "age":"5 months", 
+        "breed":"Manx", 
+        "gender":"Female",
+        "filename":"cat1.jpg",
+        "comments":"Good with kids. Fully vaccinated"
+    },
+    {
+        "kind":"Cat",
+        "name":"Sam", 
+        "age":"10 months", 
+        "breed":"Ragamuffin", 
+        "filename":"cat2.jpg",
+        "comments":"Good with kids. Fully vaccinated"
+    },
+    {
+        "kind":"Cat",
+        "name":"Malta", 
+        "age":"5 months", 
+        "breed":"Egyptian Mau", 
+        "gender":"Male",
+        "filename":"cat3.jpg",
+        "comments":"Good with kids. Fully vaccinated"
+    },
+    {
+        "kind":"Cat",
+        "name":"Luna", 
+        "age":"10 months", 
+        "breed":"Singapura", 
+        "gender":"Male",
+        "filename":"cat4.jpg",
+        "comments":"Good with kids. Fully vaccinated"
+    },
+    {
+        "kind":"Cat",
+        "name":"Chole", 
+        "age":"1 year", 
+        "breed":"Persian", 
+        "gender":"Female",
+        "filename":"cat5.jpg",
+        "comments":"Very quiet. Curious. Good hider. Fully vaccinated"
+    }
+]}
