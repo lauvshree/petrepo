@@ -3,3 +3,4 @@ Flask-WTF==0.14.3
 ibm-watson==4.4.1
 python-dotenv==0.13.0
 cloudant==2.14.0
+Flask-Cors==3.0.10
