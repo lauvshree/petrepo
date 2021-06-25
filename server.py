@@ -4,6 +4,7 @@ from cloudant.client import Cloudant
 from cloudant.error import CloudantException
 from cloudant.result import Result, ResultByKey
 from cloudant.document import Document
+from flask_cors import CORS
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -18,6 +19,7 @@ client = Cloudant.iam(account_name=account_user_name, api_key=apikey, connect=Tr
 myDatabase = client.create_database(databaseName)
 
 app = Flask("Web Hook")
+CORS(app)
 
 def getAllPets(kind):
     if(kind == "dog"):
